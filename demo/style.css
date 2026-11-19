@@ -10,22 +10,25 @@ svg{display:block}
 .app{position:absolute;top:0;left:0;width:1440px;height:900px;background:#EEF2F8;display:flex;overflow:hidden;transform-origin:0 0}
 
 /* ---------- 左側章節列 ---------- */
-.side{width:340px;flex:none;background:#fff;border-right:1px solid #E4E9F2;padding:24px 18px;display:flex;flex-direction:column;gap:14px}
+.side{width:340px;flex:none;background:#fff;border-right:1px solid #E4E9F2;padding:20px 18px 18px;display:flex;flex-direction:column;gap:12px}
+.acthd{font-size:11px;font-weight:800;color:#4B5670;letter-spacing:1px;padding:8px 12px 2px}
+.acthd:first-child{padding-top:0}
+.actchip{font-size:12px;font-weight:700;color:#4B5670}
 .brand{display:flex;align-items:center;gap:10px}
 .logo{width:38px;height:38px;border-radius:11px;background:#13213F;color:#FBBF24;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
 .brand-name{font-size:24px;font-weight:800}
 .slogan{font-size:14px;color:#4B5670;line-height:1.5}
-.chaps{display:flex;flex-direction:column;gap:2px}
-.chap{border:0;background:transparent;display:flex;align-items:center;gap:12px;padding:8px 12px;border-radius:12px;text-align:left;width:100%;min-height:44px;font-size:14px;font-weight:600}
+.chaps{display:flex;flex-direction:column;gap:1px}
+.chap{border:0;background:transparent;display:flex;align-items:center;gap:12px;padding:6px 12px;border-radius:12px;text-align:left;width:100%;min-height:38px;font-size:14px;font-weight:600}
 .chap:hover{background:#F4F6FA}
 .chap.on{background:#13213F;color:#fff}
 .chap .num{font-size:12px;font-weight:700;color:#4B5670;width:20px}
 .chap.on .num{color:#FBBF24}
 .badge{margin-left:auto;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:#E6EEFF;color:#1E40AF;white-space:nowrap}
 .badge.duo{background:#FFF1DB;color:#7A3D00}
-.tipbox{background:#F4F6FA;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.tipbox{background:#F4F6FA;border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
 .tipbox .t{font-size:12px;font-weight:700}
-.tipbox .b{font-size:13px;line-height:1.65;color:#2C3854}
+.tipbox .b{font-size:13px;line-height:1.6;color:#2C3854}
 .side-foot{margin-top:auto;display:flex;flex-direction:column;gap:8px}
 
 /* ---------- 主舞台 ---------- */
@@ -75,6 +78,28 @@ button.card{cursor:pointer}
 .bal{background:#13213F;color:#fff;border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:8px}
 .bal .lbl{font-size:12px;color:#D3DBEA}
 .bal .track{background:rgba(255,255,255,.18)}
+button.bal{border:0;width:100%;text-align:left;align-items:flex-start}
+button.bal .track{display:block}
+.bal .parts{font-size:11px;color:#D3DBEA;line-height:1.5}
+.seeline{display:flex;align-items:center;gap:4px;font-size:11px;color:#4B5670;min-width:0}
+.seeline .ico{width:14px;height:14px}
+.helpbtn{border:1px solid #F59E0B;background:#FFF7E6;color:#7A3D00;border-radius:99px;min-height:34px;padding:0 10px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;white-space:nowrap;flex:none}
+.helpbtn .ico{width:15px;height:15px}
+.frozen{display:flex;align-items:center;gap:8px;background:#FFF1DB;border:1px solid #F59E0B;color:#4A2500;border-radius:14px;padding:10px 12px;font-size:13px;font-weight:700}
+.helpcard{background:#FFF7E6;border:2px solid #F59E0B;border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:8px;animation:pop .4s ease}
+.helpcard .btn{font-size:13px;padding:0 8px}
+.hotline{display:flex;align-items:center;gap:12px;background:#F4F6FA;border-radius:14px;padding:10px 16px;width:100%}
+.hotline .ico{width:26px;height:26px;color:#1E40AF}
+.ctx{font-size:14px;line-height:1.7;background:#F4F6FA;border-radius:12px;padding:10px 12px}
+.lockedbox{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 6px;color:#535D74}
+.hold{display:flex;align-items:center;justify-content:space-between;gap:8px;background:#fff;border:1px solid #E4E9F2;border-radius:12px;padding:10px 12px}
+.carrier{display:flex;flex-direction:column;align-items:center;gap:4px;border-top:1px dashed #CBD5E5;padding-top:8px;width:100%}
+.src{font-size:10px;font-weight:700;border-radius:6px;padding:1px 5px;background:#E3F6EF;color:#0A5C47}
+.src.m{background:#EEF1F6;color:#4B5670}
+.lrbtn{border:0;border-bottom:1px solid #EEF1F6;background:none;width:100%;text-align:left;font-size:14px}
+.items{background:#F4F6FA;border-radius:10px;padding:8px 12px;margin:2px 0 6px;display:flex;flex-direction:column;gap:3px;font-size:13px}
+.fl{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:700;color:#4B5670}
+.dot.future{background:#fff;border:2px dashed #AEB8CB;color:#4B5670}
 
 .btn{border:0;border-radius:14px;min-height:46px;padding:0 16px;font-size:15px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:8px;width:100%}
 .pri{background:#2563EB;color:#fff}
@@ -155,18 +180,6 @@ button.card{cursor:pointer}
 .ring.g{background:#E3F6EF;color:#0A5C47}
 .ring.y{background:#FFF1DB;color:#7A3D00}
 .toast{position:absolute;top:14px;left:12px;right:12px;background:#13213F;color:#fff;border-radius:16px;padding:12px 14px;font-size:13px;line-height:1.5;z-index:7;display:flex;gap:10px;align-items:center;box-shadow:0 10px 24px rgba(0,0,0,.22);animation:down .3s ease}
-
-/* 結業證書 */
-.cert{width:100%;border:2px solid #FBBF24;border-radius:18px;padding:18px 14px;background:#FFFCF3;display:flex;flex-direction:column;align-items:center;gap:6px;position:relative}
-.cert::before{content:"";position:absolute;inset:5px;border:1px solid #F3D78A;border-radius:13px;pointer-events:none}
-.cert .k{font-size:11px;font-weight:700;color:#7A3D00;letter-spacing:2px}
-.cert .tt{font-size:22px;font-weight:800;letter-spacing:2px}
-.cert .nm{font-size:18px;font-weight:800;border-bottom:1px solid #E8C770;padding:0 18px 2px}
-.cert .grid2{width:100%;margin-top:6px}
-.cert .c{background:#fff;border:1px solid #F3E2B3;border-radius:10px;padding:8px 4px;display:flex;flex-direction:column;align-items:center}
-.cert .c b{font-size:18px}
-.chk{display:flex;align-items:center;gap:8px;font-size:14px;width:100%;padding:6px 0}
-.chk .ico{color:#0A5C47}
 
 /* 單手機時的父母端同步面板 */
 .sync{width:320px;margin-top:30px;background:#fff;border:1px solid #E4E9F2;border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:10px}
