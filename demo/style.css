@@ -11,7 +11,7 @@ svg{display:block}
 
 /* ---------- 左側章節列 ---------- */
 .side{width:340px;flex:none;background:#fff;border-right:1px solid #E4E9F2;padding:20px 18px 18px;display:flex;flex-direction:column;gap:12px}
-.acthd{font-size:11px;font-weight:800;color:#4B5670;letter-spacing:1px;padding:8px 12px 2px}
+.acthd{font-size:11px;font-weight:800;color:#4B5670;letter-spacing:1px;padding:6px 12px 1px}
 .acthd:first-child{padding-top:0}
 .actchip{font-size:12px;font-weight:700;color:#4B5670}
 .brand{display:flex;align-items:center;gap:10px}
@@ -19,7 +19,7 @@ svg{display:block}
 .brand-name{font-size:24px;font-weight:800}
 .slogan{font-size:14px;color:#4B5670;line-height:1.5}
 .chaps{display:flex;flex-direction:column;gap:1px}
-.chap{border:0;background:transparent;display:flex;align-items:center;gap:12px;padding:6px 12px;border-radius:12px;text-align:left;width:100%;min-height:38px;font-size:14px;font-weight:600}
+.chap{border:0;background:transparent;display:flex;align-items:center;gap:12px;padding:4px 12px;border-radius:10px;text-align:left;width:100%;min-height:33px;font-size:14px;font-weight:600}
 .chap:hover{background:#F4F6FA}
 .chap.on{background:#13213F;color:#fff}
 .chap .num{font-size:12px;font-weight:700;color:#4B5670;width:20px}
@@ -42,7 +42,36 @@ svg{display:block}
 .mode{font-size:12px;font-weight:700;padding:4px 10px;border-radius:99px}
 .mode.solo{background:#E6EEFF;color:#1E40AF}
 .mode.duo{background:#FFF1DB;color:#7A3D00}
-.stagerow{display:flex;gap:56px;align-items:flex-start}
+.stagerow{display:flex;gap:26px;align-items:flex-start}
+.rightcol{display:flex;flex-direction:column;gap:14px;margin-top:30px;width:300px}
+.rightcol .sync{margin-top:0;width:100%}
+
+/* ---------- 示範控制台（非產品畫面） ---------- */
+.console{width:250px;margin-top:30px;border:2px dashed #9AA6BC;background:#E9EDF4;border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.rightcol .console{margin-top:0;width:100%}
+.chd0{font-size:12px;font-weight:800;color:#4B5670;letter-spacing:.5px;padding-bottom:6px;border-bottom:1px dashed #AEB8CB}
+.chd{font-size:11px;font-weight:700;color:#4B5670;margin-top:2px}
+.cbtn{border:1px solid #AEB8CB;background:#fff;border-radius:10px;min-height:40px;padding:6px 12px;font-size:13px;font-weight:700;color:#2C3854;display:flex;align-items:center;gap:8px;text-align:left;width:100%}
+.cbtn:hover{background:#F8FAFD}
+.cbtn:disabled{opacity:.45;cursor:default}
+.cbtn .ico{color:#4B5670}
+.cchips{display:flex;gap:6px}
+.cchip{flex:1;border:1px solid #AEB8CB;background:#fff;border-radius:10px;min-height:40px;font-size:13px;font-weight:700;color:#2C3854}
+.cchip.on{background:#4B5670;border-color:#4B5670;color:#fff}
+.cempty{font-size:12px;color:#4B5670}
+.csteps{display:flex;flex-direction:column;gap:4px;font-size:12px;color:#4B5670}
+.csteps .on{color:#13213F;font-weight:800}
+.csteps .done{text-decoration:line-through;opacity:.7}
+
+/* ---------- 終章 ---------- */
+.summary{margin-top:40px;width:100%;max-width:960px;background:#13213F;color:#fff;border-radius:28px;padding:48px 44px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center}
+.summary .sk{font-size:14px;font-weight:700;color:#FBBF24;letter-spacing:2px}
+.summary .stt{font-size:30px;font-weight:800}
+.sumgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;width:100%;margin-top:18px}
+.sumcol{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:26px 22px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.sumcol .st{font-size:20px;font-weight:800}
+.sumcol .sd{font-size:15px;line-height:1.7;color:#D3DBEA}
+.summary .sfoot{margin-top:16px;font-size:13px;color:#AEB8CB}
 .phonecol{display:flex;flex-direction:column;gap:8px}
 .lbl-phone{font-size:13px;font-weight:700;color:#4B5670;text-align:center}
 
@@ -85,6 +114,14 @@ button.bal .track{display:block}
 .seeline .ico{width:14px;height:14px}
 .helpbtn{border:1px solid #F59E0B;background:#FFF7E6;color:#7A3D00;border-radius:99px;min-height:34px;padding:0 10px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:4px;white-space:nowrap;flex:none}
 .helpbtn .ico{width:15px;height:15px}
+.ballink{border:0;background:rgba(255,255,255,.12);color:#fff;border-radius:99px;min-height:30px;padding:0 6px 0 10px;font-size:12px;font-weight:700;display:flex;align-items:center;gap:2px}
+.held{display:flex;align-items:center;gap:8px;background:#F0F5FF;border:1px solid #C8D7F5;color:#1E3A8A;border-radius:14px;padding:10px 12px;font-size:13px;font-weight:700}
+.use{font-size:11px;font-weight:700;color:#4B5670;background:#EEF1F6;border-radius:6px;padding:2px 8px;align-self:flex-start}
+.use.ok{background:#E3F6EF;color:#0A5C47}
+.ireq{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13px;font-weight:700;padding:6px 2px;border-top:1px solid #E4E9F2}
+.alertbar{border:0;background:#FFF1DB;color:#7A3D00;font-size:12px;font-weight:700;display:flex;align-items:center;gap:6px;padding:8px 18px;flex:none;text-align:left}
+.alertbar .ico{width:16px;height:16px}
+.scr.blank{align-items:center;justify-content:center;gap:12px;padding:20px}
 .frozen{display:flex;align-items:center;gap:8px;background:#FFF1DB;border:1px solid #F59E0B;color:#4A2500;border-radius:14px;padding:10px 12px;font-size:13px;font-weight:700}
 .helpcard{background:#FFF7E6;border:2px solid #F59E0B;border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:8px;animation:pop .4s ease}
 .helpcard .btn{font-size:13px;padding:0 8px}
