@@ -52,6 +52,7 @@
 
 | 文件 | 內容 |
 |---|---|
+| [大戶 Junior 提案重點.pptx](大戶%20Junior%20提案重點.pptx) | 3 頁提案重點投影片：三大核心賣點、為什麼是永豐、未來延伸方向 |
 | [docs/01-concept.md](docs/01-concept.md) | 提案背景、兩大主打痛點、為什麼是永豐、拉新與黏著度、國外案例、可行性、延伸想法 |
 | [docs/02-features.md](docs/02-features.md) | 完整功能規格（三支柱、成長機制、延伸想法、刻意不做的功能） |
 | [docs/03-demo-plan.md](docs/03-demo-plan.md) | 如何把概念做成可互動的 Demo 網頁（架構、狀態、畫面、流程、部署） |
